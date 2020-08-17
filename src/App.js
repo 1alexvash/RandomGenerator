@@ -13,7 +13,7 @@ import Menu from "./Layouts/Menu";
 const App = () => {
   const showComponents = (
     <div className="container">
-      <Route path="/coin" component={Coin} />
+      <Route exact path="/" component={Coin} />
       <Route path="/dice" component={Dice} />
       <Route path="/number" component={Numbers} />
     </div>

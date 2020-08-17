@@ -12,7 +12,7 @@ const Menu = () => {
 
   return (
     <div className="Menu">
-      <Link to="/coin" className={pathname === "/coin" ? "active" : ""}>
+      <Link to="/" className={pathname === "/" ? "active" : ""}>
         <img src={CoinImg} alt="" /> Coin
       </Link>
       <Link to="/dice" className={pathname === "/dice" ? "active" : ""}>
