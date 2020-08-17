@@ -35,6 +35,12 @@ input {
           box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+@media (max-width: 540px) {
+  .App .container {
+    width: 100%;
+  }
+}
+
 .App .Coin {
   text-align: center;
 }
@@ -739,6 +745,12 @@ input {
   background: black;
 }
 
+@media (max-width: 540px) {
+  .App .Menu {
+    width: 100%;
+  }
+}
+
 .App .Menu a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -754,6 +766,12 @@ input {
   color: white;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+@media (max-width: 540px) {
+  .App .Menu a {
+    padding: 15px 10px;
+  }
 }
 
 .App .Menu a img {

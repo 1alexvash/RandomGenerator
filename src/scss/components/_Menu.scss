@@ -7,6 +7,9 @@
   display: flex;
   justify-content: space-between;
   background: black;
+  @include responsive(540px) {
+    width: 100%;
+  }
   a {
     display: flex;
     align-items: center;
@@ -15,6 +18,9 @@
     flex: 1;
     color: white;
     transition: 0.3s;
+    @include responsive(540px) {
+      padding: 15px 10px;
+    }
     img {
       width: 24px;
       margin-right: 8px;

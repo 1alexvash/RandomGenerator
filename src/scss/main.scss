@@ -12,6 +12,9 @@
     padding: 20px;
     background: rgba(deepskyblue, 0.2);
     box-shadow: 1px 2px 4px rgba(black, 0.7);
+    @include responsive(540px) {
+      width: 100%;
+    }
   }
   @import "./components/Coin";
   @import "./components/Dice";
