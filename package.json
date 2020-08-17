@@ -1,5 +1,6 @@
 {
   "name": "random-generator",
+  "homepage": "https://1alexvash.github.io/RandomGenerator/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
