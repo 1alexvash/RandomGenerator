@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.90cca4fe.chunk.css",
-    "main.js": "/static/js/main.2ac6d18a.chunk.js",
-    "main.js.map": "/static/js/main.2ac6d18a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.43f7abea.js",
-    "runtime-main.js.map": "/static/js/runtime-main.43f7abea.js.map",
-    "static/js/2.b764019c.chunk.js": "/static/js/2.b764019c.chunk.js",
-    "static/js/2.b764019c.chunk.js.map": "/static/js/2.b764019c.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.64cc6240909718de3e5358b780268ae3.js": "/precache-manifest.64cc6240909718de3e5358b780268ae3.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.90cca4fe.chunk.css.map": "/static/css/main.90cca4fe.chunk.css.map",
-    "static/js/2.b764019c.chunk.js.LICENSE.txt": "/static/js/2.b764019c.chunk.js.LICENSE.txt",
-    "static/media/coinDrop.mp3": "/static/media/coinDrop.56418137.mp3",
-    "static/media/diceRoll.mp3": "/static/media/diceRoll.82fe074e.mp3",
-    "static/media/head.png": "/static/media/head.bfedd519.png",
-    "static/media/menu_coin.png": "/static/media/menu_coin.5d68650e.png",
-    "static/media/menu_dice.png": "/static/media/menu_dice.7ccb9f14.png",
-    "static/media/menu_numbers.png": "/static/media/menu_numbers.9bf6c82a.png",
-    "static/media/tail.png": "/static/media/tail.2b7b4b6f.png"
+    "main.css": "/RandomGenerator/static/css/main.90cca4fe.chunk.css",
+    "main.js": "/RandomGenerator/static/js/main.2d6aa449.chunk.js",
+    "main.js.map": "/RandomGenerator/static/js/main.2d6aa449.chunk.js.map",
+    "runtime-main.js": "/RandomGenerator/static/js/runtime-main.142851c8.js",
+    "runtime-main.js.map": "/RandomGenerator/static/js/runtime-main.142851c8.js.map",
+    "static/js/2.b764019c.chunk.js": "/RandomGenerator/static/js/2.b764019c.chunk.js",
+    "static/js/2.b764019c.chunk.js.map": "/RandomGenerator/static/js/2.b764019c.chunk.js.map",
+    "index.html": "/RandomGenerator/index.html",
+    "precache-manifest.01b6d4a639a2dd3aac90023a9fa7bd02.js": "/RandomGenerator/precache-manifest.01b6d4a639a2dd3aac90023a9fa7bd02.js",
+    "service-worker.js": "/RandomGenerator/service-worker.js",
+    "static/css/main.90cca4fe.chunk.css.map": "/RandomGenerator/static/css/main.90cca4fe.chunk.css.map",
+    "static/js/2.b764019c.chunk.js.LICENSE.txt": "/RandomGenerator/static/js/2.b764019c.chunk.js.LICENSE.txt",
+    "static/media/coinDrop.mp3": "/RandomGenerator/static/media/coinDrop.56418137.mp3",
+    "static/media/diceRoll.mp3": "/RandomGenerator/static/media/diceRoll.82fe074e.mp3",
+    "static/media/head.png": "/RandomGenerator/static/media/head.bfedd519.png",
+    "static/media/menu_coin.png": "/RandomGenerator/static/media/menu_coin.5d68650e.png",
+    "static/media/menu_dice.png": "/RandomGenerator/static/media/menu_dice.7ccb9f14.png",
+    "static/media/menu_numbers.png": "/RandomGenerator/static/media/menu_numbers.9bf6c82a.png",
+    "static/media/tail.png": "/RandomGenerator/static/media/tail.2b7b4b6f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.43f7abea.js",
+    "static/js/runtime-main.142851c8.js",
     "static/js/2.b764019c.chunk.js",
     "static/css/main.90cca4fe.chunk.css",
-    "static/js/main.2ac6d18a.chunk.js"
+    "static/js/main.2d6aa449.chunk.js"
   ]
 }
