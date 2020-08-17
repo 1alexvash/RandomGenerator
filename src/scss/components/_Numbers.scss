@@ -1,0 +1,39 @@
+.Numbers {
+  .flex-wrapper {
+    display: flex;
+    div {
+      padding: 15px;
+      p {
+        margin-bottom: 10px;
+      }
+      input {
+        padding: 4px 8px;
+        border: 1px solid black;
+        border-radius: 4px;
+      }
+    }
+  }
+  .warning {
+    text-align: center;
+    font-size: 16px;
+    color: lighten(red, 10%);
+  }
+  .results {
+    font-size: 48px;
+    text-align: center;
+  }
+  .generate {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: lighten(lightgray, 10%);
+    transition: 0.3s;
+    &:hover {
+      background: lighten(lightgray, 20%);
+    }
+  }
+}

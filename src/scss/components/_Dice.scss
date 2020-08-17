@@ -1,0 +1,28 @@
+.Dice {
+  text-align: center;
+  .cube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 30px 0;
+  }
+  .throw {
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 8px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: darken(blue, 25%);
+    color: white;
+    transition: background-color 0.3s, opacity 1s;
+    &:hover {
+      background: darken(blue, 35%);
+    }
+    &.disabled {
+      cursor: auto;
+      background: darken(blue, 25%);
+      opacity: 0.4;
+    }
+  }
+}

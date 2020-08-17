@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import "./scss/main.css";
+
+import { HashRouter as Router, Route } from "react-router-dom";
+
+import Coin from "./components/Coin";
+import Dice from "./components/Dice";
+import Numbers from "./components/Numbers";
+
+import Menu from "./Layouts/Menu";
+
+const App = () => {
+  const showComponents = (
+    <div className="container">
+      <Route path="/coin" component={Coin} />
+      <Route path="/dice" component={Dice} />
+      <Route path="/number" component={Numbers} />
     </div>
   );
-}
+
+  return (
+    <Router>
+      <div className="App">
+        {showComponents}
+        <Menu />
+      </div>
+    </Router>
+  );
+};
 
 export default App;
